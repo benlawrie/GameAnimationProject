@@ -27673,7 +27673,8 @@ PrefabInstance:
       value: Door (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2675233659255703392, guid: b30674dd54f645d42aff0c46f99670cd, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b30674dd54f645d42aff0c46f99670cd, type: 3}
