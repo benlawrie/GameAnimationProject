@@ -22,7 +22,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 8.216666666666667
+    m_Start: 8.733333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 5770774806576498459}
     m_Duration: 8.333333333333334
@@ -30,7 +30,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -7991235914719206499}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.0500000000000007
+    m_BlendInDuration: 0.9833333333333343
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -94,13 +94,13 @@ MonoBehaviour:
     m_Start: 0.4166666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 5575172055026404228}
-    m_Duration: 8.850000000000001
+    m_Duration: 9.3
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7991235914719206499}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 1.0500000000000007
+    m_BlendOutDuration: 0.9833333333333343
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -219,7 +219,7 @@ MonoBehaviour:
     m_Start: 0.4166666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -7108612079930938596}
-    m_Duration: 4.116666666666666
+    m_Duration: 2.166666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1375202727570245128}
     m_EaseInDuration: 0
@@ -285,10 +285,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM vcam1
   - m_Version: 1
-    m_Start: 4.533333333333333
+    m_Start: 2.5833333333333335
     m_ClipIn: 0
     m_Asset: {fileID: -1072994848130068201}
-    m_Duration: 13.066666666666668
+    m_Duration: 4.199999999999999
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1375202727570245128}
     m_EaseInDuration: 0
@@ -427,8 +427,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: 4433092289d27c440b6637c3817569aa, type: 3}
-  m_Position: {x: -0.044736207, y: -0.013046583, z: 13.7512455}
-  m_EulerAngles: {x: 0, y: 3.036, z: 0}
+  m_Position: {x: -0.014733987, y: -0.01581218, z: 14.66505}
+  m_EulerAngles: {x: 0, y: -0.218, z: 0}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1

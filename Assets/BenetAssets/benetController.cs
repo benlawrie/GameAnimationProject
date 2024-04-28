@@ -28,6 +28,8 @@ public class benetController : MonoBehaviour
     private void OnAnimatorIK(int layerIndex){
         anim.SetIKPosition(AvatarIKGoal.RightHand, target.transform.position); 
         anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight);  
+        // anim.SetIKPosition(AvatarIKGoal.RightHandThumb3, target.transform.position); 
+        // anim.SetIKPositionWeight(AvatarIKGoal.RightHandThumb3, IK_weight);  
 
     } 
         
