@@ -29,10 +29,6 @@ public class benetController : MonoBehaviour
         anim.SetIKPosition(AvatarIKGoal.RightHand, target.transform.position); 
         anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight);  
 
-        
-        
-        //
-
     } 
         
 }
