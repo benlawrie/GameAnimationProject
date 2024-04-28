@@ -10,7 +10,11 @@ public class benetController : MonoBehaviour
     public GameObject torch;
     public GameObject hand;
     public GameObject target;
+    public GameObject note;
+    public GameObject Benet;
     public float IK_weight = 1.0f;
+
+    private bool callNote = false;
 
     void Start()
     {
@@ -22,15 +26,17 @@ public class benetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //torch.transform.parent = hand.transform;
+        
     }
 
     private void OnAnimatorIK(int layerIndex){
         anim.SetIKPosition(AvatarIKGoal.RightHand, target.transform.position); 
-        anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight);  
-        // anim.SetIKPosition(AvatarIKGoal.RightHandThumb3, target.transform.position); 
-        // anim.SetIKPositionWeight(AvatarIKGoal.RightHandThumb3, IK_weight);  
-
+        anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight); 
+        if (Time.time > 12){
+            anim.SetLookAtPosition(note.transform.position);
+            anim.SetLookAtWeight(1f);
+        } 
+        
     } 
         
 }
