@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: 1e24085edff8e4e499582d8dcf099510
 <<<<<<< HEAD
+<<<<<<< HEAD
 timeCreated: 1493908344
 licenseType: Store
 DefaultImporter:
@@ -8,6 +9,10 @@ DefaultImporter:
 DefaultImporter:
   externalObjects: {}
 >>>>>>> Ryan-Dev
+=======
+DefaultImporter:
+  externalObjects: {}
+>>>>>>> Abbys
   userData: 
   assetBundleName: 
   assetBundleVariant: 
