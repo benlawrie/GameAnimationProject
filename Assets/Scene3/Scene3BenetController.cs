@@ -5,11 +5,11 @@ using UnityEngine;
 public class BenetController2 : MonoBehaviour
 {
     Animator anim;
-
     public GameObject torch;
     public GameObject hand;
     public GameObject target;
     public GameObject Benet;
+    public GameObject trigger;
     public float IK_weight = 1.0f;
 
     //Walking
@@ -28,8 +28,8 @@ public class BenetController2 : MonoBehaviour
     {
         float translation = Input.GetAxis("Vertical") * translationSpeed;
         //translation += Time.deltaTime;
-        if(Input.GetKey(KeyCode.UpArrow)){
-            Debug.Log("yes");
+        if(Input.GetKeyDown(KeyCode.Space)){
+            anim.SetBool("test", true);
         }
         transform.Translate(0, 0, translation);
 
@@ -56,4 +56,5 @@ public class BenetController2 : MonoBehaviour
         anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight); 
         
     } 
+
 }
