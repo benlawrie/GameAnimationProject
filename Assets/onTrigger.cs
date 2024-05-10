@@ -9,10 +9,12 @@ public class onTrigger : MonoBehaviour
     public Vector3 startingPos;
     public Quaternion startingRot;
     public Animator anim;
+    public bool collided;
     
 
     void Start()
     {
+        collided = false;
         startingPos = trigger.transform.position;
         startingRot = trigger.transform.rotation;
         anim = GetComponentInParent<Animator>();
@@ -27,15 +29,17 @@ public class onTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         Debug.Log("Colided");
-        anim.SetBool("test", true);
-        StartCoroutine(MyCoroutine());
+        //anim.SetBool("test", true);
+        //StartCoroutine(MyCoroutine());
+        collided = true;
     }
 
-    // void OnTriggerExit(Collider other){
+    void OnTriggerExit(Collider other){
+        collided = false;
     //     Debug.Log("Exit");
     //     anim.SetBool("test", false);
     //     //anim.SetBool("isWalking", true);
-    // }
+    }
 
     IEnumerator MyCoroutine(){
         yield return new WaitForSeconds(10);
