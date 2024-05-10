@@ -14,8 +14,8 @@ public class BenetController2 : MonoBehaviour
     public bool move = true;
 
     //Walking
-    float translationSpeed = 0.005f;
-    float rotationSpeed = 0.5f;
+    public float translationSpeed = 0.005f;
+    public float rotationSpeed = 0.5f;
 
     void Start()
     {

@@ -7,7 +7,7 @@ public class trigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Debug.Log("YES");
     }
 
     // Update is called once per frame
