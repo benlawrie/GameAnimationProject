@@ -26,7 +26,7 @@ public class benetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        torch.transform.parent = hand.transform;
     }
 
     private void OnAnimatorIK(int layerIndex){
