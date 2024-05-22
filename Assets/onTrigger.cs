@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class onTrigger : MonoBehaviour
 {
@@ -32,6 +34,7 @@ public class onTrigger : MonoBehaviour
         //anim.SetBool("test", true);
         //StartCoroutine(MyCoroutine());
         collided = true;
+
     }
 
     void OnTriggerExit(Collider other){
@@ -39,6 +42,13 @@ public class onTrigger : MonoBehaviour
     //     Debug.Log("Exit");
     //     anim.SetBool("test", false);
     //     //anim.SetBool("isWalking", true);
+    }
+
+    void OnTriggerStay(Collider other){
+        if (Input.GetKeyDown(KeyCode.E)){
+            //Debug.Log("Pog");
+            SceneManager.LoadScene("Scene4");
+        }
     }
 
     IEnumerator MyCoroutine(){
