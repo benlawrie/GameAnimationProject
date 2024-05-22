@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/SampleScene.unity.meta
+guid: d11149fb5a5dccd4ca12b4e8ae5c77f5
+========
+guid: 3cb67cda4fc7b4023b06b30413963fe8
+>>>>>>>> testmerge2:Assets/Scenes/Cave2.unity.meta
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
