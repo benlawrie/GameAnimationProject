@@ -156,15 +156,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Idle
   - m_Version: 1
-    m_Start: 12.516666666666667
-    m_ClipIn: 0
+    m_Start: 15.783333333333333
+    m_ClipIn: 2.549999999999999
     m_Asset: {fileID: 6555242409375681845}
-    m_Duration: 6.666666666666667
+    m_Duration: 4.7666666666666675
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6277306868055193806}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.8166666666666664
+    m_BlendInDuration: 0.9000000000000004
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -210,13 +210,13 @@ MonoBehaviour:
     m_Start: 9.4
     m_ClipIn: 0
     m_Asset: {fileID: 7575780120114506760}
-    m_Duration: 3.933333333333333
+    m_Duration: 7.283333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6277306868055193806}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.8166666666666664
+    m_BlendOutDuration: 0.9000000000000004
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
