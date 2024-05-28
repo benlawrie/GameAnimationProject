@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class BenetController2 : MonoBehaviour
 {
@@ -17,6 +16,10 @@ public class BenetController2 : MonoBehaviour
     public float translationSpeed = 0.005f;
     public float runSpeed = 0.5f;
     public float rotationSpeed = 0.5f;
+
+    // Cinemachine virtual cameras
+    public CinemachineVirtualCamera vcam1;
+    public CinemachineVirtualCamera vcam2;
 
     void Start()
     {
@@ -59,10 +62,12 @@ public class BenetController2 : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 anim.SetBool("isLookingBack", true);
+                SwitchToVcam2();
             }
             if (Input.GetKeyUp(KeyCode.E))
             {
                 anim.SetBool("isLookingBack", false);
+                SwitchToVcam1();
             }
         }
     }
@@ -71,5 +76,25 @@ public class BenetController2 : MonoBehaviour
     {
         anim.SetIKPosition(AvatarIKGoal.RightHand, target.transform.position); 
         anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight); 
+    }
+
+    private void SwitchToVcam2()
+    {
+        if (vcam2 != null && vcam1 != null)
+        {
+            // Set vcam2 priority higher to switch to it
+            vcam2.Priority = 10;
+            vcam1.Priority = 5;
+        }
+    }
+
+    private void SwitchToVcam1()
+    {
+        if (vcam2 != null && vcam1 != null)
+        {
+            // Set vcam1 priority higher to switch back to it
+            vcam1.Priority = 10;
+            vcam2.Priority = 5;
+        }
     }
 }
