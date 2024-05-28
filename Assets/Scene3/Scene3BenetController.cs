@@ -59,12 +59,12 @@ public class BenetController2 : MonoBehaviour
             }
 
             // Check for look back input
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Q))
             {
                 anim.SetBool("isLookingBack", true);
                 SwitchToVcam2();
             }
-            if (Input.GetKeyUp(KeyCode.E))
+            if (Input.GetKeyUp(KeyCode.Q))
             {
                 anim.SetBool("isLookingBack", false);
                 SwitchToVcam1();
