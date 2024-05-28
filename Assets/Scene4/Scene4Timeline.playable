@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5674355635706987466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -203655887218126122, guid: 4778f3cd566c4a841aea4c986413fb23, type: 3}
+  m_Position: {x: -86.49003, y: 0, z: -6.5600104}
+  m_EulerAngles: {x: 0, y: 6.603, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-2742193262129573423
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13,8 +35,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: 4433092289d27c440b6637c3817569aa, type: 3}
-  m_Position: {x: -8.917157, y: -0.0024089755, z: 3.4146314}
-  m_EulerAngles: {x: 0, y: -97.34, z: 0}
+  m_Position: {x: -86.10336, y: -0.0011983542, z: -3.0167265}
+  m_EulerAngles: {x: 0, y: 6.603, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -44,10 +66,61 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.0333333333333334
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -5674355635706987466}
+    m_Duration: 1.0166666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -2136564495170149999}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 1
+    m_PreExtrapolationMode: 1
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: mixamo.com
+  - m_Version: 1
+    m_Start: 2.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -2742193262129573423}
-    m_Duration: 17.98333333333333
+    m_Duration: 8.333333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2136564495170149999}
     m_EaseInDuration: 0
@@ -95,10 +168,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Idle
   - m_Version: 1
-    m_Start: 0.00000000000000005551115123125783
+    m_Start: 1.0166666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 1271354596591358932}
-    m_Duration: 1.0333333333333334
+    m_Duration: 1.0166666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2136564495170149999}
     m_EaseInDuration: 0
@@ -107,25 +180,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -143,7 +198,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0.00000000000000005551115123125783
+    m_PreExtrapolationTime: 0
     m_DisplayName: mixamo.com
   m_Markers:
     m_Objects: []
@@ -230,8 +285,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: 4778f3cd566c4a841aea4c986413fb23, type: 3}
-  m_Position: {x: -7.11, y: 0, z: 3.6494713}
-  m_EulerAngles: {x: 0, y: -97.34, z: 0}
+  m_Position: {x: -86.29669, y: -0.00060002203, z: -4.788371}
+  m_EulerAngles: {x: 0, y: 6.603, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
