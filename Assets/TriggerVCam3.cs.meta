@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80e1e1a507d95e242be9f368d5ec91a6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - objectA: {fileID: 919132149155446097, guid: 5a0cfd2ed4bb1f04fa5d866c0a7229cd, type: 3}
+  - objectB: {fileID: 919132149155446097, guid: b5321af1a92c070478b88e3dd58953d9, type: 3}
+  - vcam3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
